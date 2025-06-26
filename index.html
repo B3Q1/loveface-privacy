@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy for LoveFace App</title>
+    <title>Privacy Policy for LoveConnect App</title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -30,8 +30,14 @@
             border: 0;
             border-top: 1px solid #eee;
         }
-        h1, h2, h4 {
+        h1, h2, h3 {
             color: #111;
+        }
+        .note {
+            background-color: #fef9c3;
+            border-left: 4px solid #facc15;
+            padding: 12px;
+            margin: 16px 0;
         }
     </style>
 </head>
@@ -42,115 +48,135 @@
         </div>
 
         <div id="en">
-            <h1>Privacy Policy for LoveFace App</h1>
-            <p><strong>Last Updated:</strong> [06.25.2025]</p>
+            <h1>Privacy Policy for LoveConnect</h1>
+            <p><strong>Last Updated:</strong> June 26, 2025</p>
             
-            <p>This Privacy Policy describes how the LoveFace application ("the App", "we", "us") collects, uses, and protects your information. By using the App, you agree to the practices described in this policy.</p>
+            <p>This Privacy Policy describes how LoveConnect ("the App", "we", "us") collects, uses, and protects your information. By creating an account and using the App, you agree to the practices described in this policy.</p>
 
-            <h2>1. What Information We Collect</h2>
-            <p>We collect several types of information from you:</p>
+            <h2>1. Information We Collect</h2>
             
-            <h4>a) Information You Provide Directly to Us:</h4>
+            <h3>a) Information You Provide Directly:</h3>
             <ul>
-                <li><strong>Registration Data:</strong> When you create an account, we collect the information you provide, such as your username, email address, and gender.</li>
-                <li><strong>Password:</strong> We use the Firebase Authentication system for your authorization. Your password is encrypted, and we do not have direct access to it.</li>
+                <li><strong>Account Information:</strong> When you register, we collect your username, email address, password, and gender. We also require you to confirm you are 18 years of age or older.</li>
+                <li><strong>Block List:</strong> When you block another user, we store this information to prevent future connections between you and the blocked user.</li>
             </ul>
 
-            <h4>b) Content You Create Within the App:</h4>
+            <h3>b) Information from Third Parties:</h3>
             <ul>
-                <li><strong>Video and Audio Stream:</strong> The App uses your device's camera and microphone to make video calls. This data is transmitted in real-time, and we do not store it on our servers.</li>
-                <li><strong>Text Messages:</strong> Messages you send are stored temporarily to be delivered to the recipient during the conversation. After the conversation ends, the chat history is deleted.</li>
+                <li><strong>Facebook Login:</strong> If you choose to register or log in using Facebook, we will receive certain profile information from your Facebook account, such as your name, email address, and public profile information, as permitted by you and Facebook's policies.</li>
             </ul>
-
-            <h4>c) Third-Party Services:</h4>
-            <p>We use third-party services that may have their own privacy policies:</p>
+            
+            <h3>c) Content You Create in the App:</h3>
             <ul>
-                <li><strong>Google Firebase (Authentication, Realtime Database):</strong> Used for user authentication, account management, and database functionality. For details, see <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</li>
-                <li><strong>Agora.io (RTC SDK):</strong> Used for real-time video and audio transmission. For details, see <a href="https://www.agora.io/en/privacy-policy/">Agora's Privacy Policy</a>.</li>
+                <li><strong>Video and Audio Stream:</strong> The App uses your device's camera and microphone for live video calls. This data is streamed in real-time and is not stored by us.</li>
+                <li><strong>Text Messages:</strong> Messages you send during a call are stored temporarily for delivery and are deleted after the call ends.</li>
             </ul>
 
             <h2>2. How We Use Your Information</h2>
-            <p>We use the collected information for the following purposes:</p>
             <ul>
-                <li>To provide the App's services: creating your account, connecting you with a partner, and enabling video calls.</li>
-                <li>Communication: To contact you with service-related notices if necessary.</li>
-                <li>Security: To protect our services and detect potential fraud.</li>
+                <li>To provide and maintain the App's services, including creating your account, matching you with other users, and enabling video calls.</li>
+                <li>To enforce our rules and ensure a safe environment by using your block list to prevent unwanted interactions.</li>
+                <li>To manage your account, including handling account deletion requests.</li>
             </ul>
 
             <h2>3. Information Sharing</h2>
-            <p>We do not sell or share your personal information with third parties, except in the following cases:</p>
+            <p>We do not sell or rent your personal information. We may share it only in the following cases:</p>
             <ul>
-                <li><strong>With Other Users:</strong> Your username and video/audio/text content are shared with the user you are talking to.</li>
-                <li><strong>By Law:</strong> If required by law or a court order.</li>
+                <li><strong>With Other Users:</strong> Your username and video/audio/text content are shared in real-time with the user you are connected to.</li>
+                <li><strong>With Service Providers:</strong> We use third-party services like Google Firebase (for authentication and database) and Agora.io (for video streaming). These services have their own privacy policies.</li>
+                <li><strong>For Legal Reasons:</strong> If required by law or to protect the rights and safety of our users and the public.</li>
             </ul>
+            
+            <h2>4. Your Rights and Choices</h2>
 
-            <h2>4. Data Security</h2>
-            <p>We take reasonable measures to protect your information, but no method of transmission over the internet is 100% secure. We cannot guarantee absolute security.</p>
+            <h3>a) Managing Your Block List:</h3>
+            <p>You can view and manage your list of blocked users from the "Blocked" section within the app, accessible from the main filter screen.</p>
+            
+            <h3>b) Account Deletion:</h3>
+            <p>You have the right to permanently delete your account at any time. This action is irreversible and will remove all your associated data from our systems.</p>
 
-            <h2>5. Your Rights</h2>
-            <p>You have the right to request the deletion of your account and its associated data. To do so, you can contact us at the email address provided below.</p>
+            <h2>5. Data Deletion Instructions</h2>
+            <p class="note">This section provides instructions for data deletion as required by the Facebook Platform.</p>
+            <p>To permanently delete your account and all associated data, including your profile and block list, please follow these steps:</p>
+            <ol>
+                <li>Log in to the application.</li>
+                <li>Navigate to the main filter screen (the page with the "Start Matching" and "Logout" buttons).</li>
+                <li>Press the "Delete Account" button.</li>
+                <li>A confirmation pop-up window will appear. Press "Delete" to confirm.</li>
+            </ol>
+            <p>Upon confirmation, your user account will be deleted from Firebase Authentication, and all your data will be permanently removed from our Realtime Database.</p>
 
-            <h2>6. Changes to This Policy</h2>
-            <p>We may update this policy from time to time. We will notify you of any changes through the App or by posting the new version of the policy.</p>
+            <h2>6. Children's Privacy</h2>
+            <p>Our service is strictly for users aged 18 and over. We do not knowingly collect personal information from anyone under the age of 18.</p>
 
             <h2>7. Contact Us</h2>
-            <p>If you have any questions about this Privacy Policy, please contact us:<br>
+            <p>If you have any questions about this Privacy Policy, please contact us at:<br>
             <strong>[19gold92@gmail.com]</strong></p>
         </div>
 
         <hr>
 
         <div id="ka">
-            <h1>კონფიდენციალურობის პოლიტიკა LoveFace აპლიკაციისთვის</h1>
-            <p><strong>ბოლო განახლების თარიღი:</strong> [06.25.2025]</p>
+            <h1>კონფიდენციალურობის პოლიტიკა LoveConnect-თვის</h1>
+            <p><strong>ბოლო განახლების თარიღი:</strong> 26 ივნისი, 2025</p>
             
-            <p>ეს კონფიდენციალურობის პოლიტიკა აღწერს, თუ როგორ აგროვებს, იყენებს და იცავს თქვენს ინფორმაციას აპლიკაცია LoveFace (შემდგომში "აპლიკაცია", "ჩვენ"). აპლიკაციის გამოყენებით თქვენ ეთანხმებით ამ პოლიტიკაში აღწერილ პრაქტიკას.</p>
+            <p>ეს კონფიდენციალურობის პოლიტიკა აღწერს, თუ როგორ აგროვებს, იყენებს და იცავს თქვენს ინფორმაციას აპლიკაცია LoveConnect (შემდგომში "აპლიკაცია", "ჩვენ"). ანგარიშის შექმნითა და აპლიკაციის გამოყენებით, თქვენ ეთანხმებით ამ პოლიტიკაში აღწერილ პრაქტიკას.</p>
 
             <h2>1. რა ინფორმაციას ვაგროვებთ</h2>
-            <p>ჩვენ ვაგროვებთ რამდენიმე ტიპის ინფორმაციას თქვენგან:</p>
             
-            <h4>ა) ინფორმაცია, რომელსაც პირდაპირ გვაწვდით:</h4>
+            <h3>ა) ინფორმაცია, რომელსაც პირდაპირ გვაწვდით:</h3>
             <ul>
-                <li><strong>რეგისტრაციის მონაცემები:</strong> როდესაც ქმნით ანგარიშს, ჩვენ ვაგროვებთ თქვენს მიერ მოწოდებულ ინფორმაციას, როგორიცაა მომხმარებლის სახელი (username), ელექტრონული ფოსტის მისამართი და სქესი.</li>
-                <li><strong>პაროლი:</strong> ჩვენ ვიყენებთ Firebase Authentication სისტემას თქვენი ავტორიზაციისთვის. თქვენი პაროლი დაშიფრულია და ჩვენ მასზე პირდაპირი წვდომა არ გვაქვს.</li>
+                <li><strong>სარეგისტრაციო მონაცემები:</strong> რეგისტრაციისას ჩვენ ვაგროვებთ თქვენს მიერ მოწოდებულ ინფორმაციას: მომხმარებლის სახელი, იმეილი, პაროლი და სქესი. ჩვენ ასევე ვითხოვთ დადასტურებას, რომ ხართ 18 წლის ან მეტის.</li>
+                <li><strong>დაბლოკილების სია:</strong> როდესაც თქვენ ბლოკავთ სხვა მომხმარებელს, ჩვენ ვინახავთ ამ ინფორმაციას, რათა თავიდან ავირიდოთ თქვენი მომავალი დაკავშირება დაბლოკილ მომხმარებელთან.</li>
             </ul>
 
-            <h4>ბ) კონტენტი, რომელსაც ქმნით აპლიკაციაში:</h4>
+            <h3>ბ) ინფორმაცია მესამე მხარეებიდან:</h3>
             <ul>
-                <li><strong>ვიდეო და აუდიო ნაკადი:</strong> აპლიკაცია იყენებს თქვენი მოწყობილობის კამერასა და მიკროფონს ვიდეოზარების განსახორციელებლად. ეს მონაცემები გადაიცემა რეალურ დროში და ჩვენ მას არ ვინახავთ ჩვენს სერვერებზე.</li>
-                <li><strong>ტექსტური შეტყობინებები:</strong> თქვენ მიერ გაგზავნილი შეტყობინებები ინახება დროებით, რათა მიეწოდოს ადრესატს საუბრის განმავლობაში. საუბრის დასრულების შემდეგ, ჩატის ისტორია იშლება.</li>
+                <li><strong>Facebook-ით შესვლა:</strong> თუ აირჩევთ Facebook-ით რეგისტრაციას ან შესვლას, ჩვენ მივიღებთ გარკვეულ საპროფილე ინფორმაციას თქვენი Facebook ანგარიშიდან, როგორიცაა თქვენი სახელი, იმეილი და საჯარო პროფილის ინფორმაცია, თქვენი და Facebook-ის წესების შესაბამისად.</li>
             </ul>
-
-            <h4>გ) მესამე მხარის სერვისები:</h4>
-            <p>ჩვენ ვიყენებთ მესამე მხარის სერვისებს, რომლებსაც შესაძლოა ჰქონდეთ საკუთარი კონფიდენციალურობის პოლიტიკა:</p>
+            
+            <h3>გ) კონტენტი, რომელსაც ქმნით აპლიკაციაში:</h3>
             <ul>
-                <li><strong>Google Firebase (Authentication, Realtime Database):</strong> გამოიყენება მომხმარებელთა ავტორიზაციის, ანგარიშის მართვისა და მონაცემთა ბაზის ფუნქციონირებისთვის. დეტალები იხილეთ <a href="https://policies.google.com/privacy">Google-ის პოლიტიკაში</a>.</li>
-                <li><strong>Agora.io (RTC SDK):</strong> გამოიყენება ვიდეო და აუდიო ზარების რეალურ დროში გადასაცემად. დეტალები იხილეთ <a href="https://www.agora.io/en/privacy-policy/">Agora-ს პოლიტიკაში</a>.</li>
+                <li><strong>ვიდეო და აუდიო ნაკადი:</strong> აპლიკაცია იყენებს თქვენი მოწყობილობის კამერასა და მიკროფონს პირდაპირი ვიდეოზარებისთვის. ეს მონაცემები გადაიცემა რეალურ დროში და ჩვენ მას არ ვინახავთ.</li>
+                <li><strong>ტექსტური შეტყობინებები:</strong> ზარის დროს გაგზავნილი შეტყობინებები ინახება დროებით და იშლება ზარის დასრულების შემდეგ.</li>
             </ul>
 
             <h2>2. როგორ ვიყენებთ თქვენს ინფორმაციას</h2>
-            <p>ჩვენ ვიყენებთ შეგროვებულ ინფორმაციას შემდეგი მიზნებისთვის:</p>
             <ul>
-                <li>აპლიკაციის სერვისების მოწოდება: თქვენი ანგარიშის შექმნა, პარტნიორთან დაკავშირება და ვიდეოზარების განხორციელება.</li>
-                <li>კომუნიკაცია: საჭიროების შემთხვევაში, თქვენთან დასაკავშირებლად სერვისთან დაკავშირებული საკითხების შესახებ.</li>
-                <li>უსაფრთხოება: ჩვენი სერვისების დასაცავად და პოტენციური თაღლითობის აღმოსაჩენად.</li>
+                <li>აპლიკაციის სერვისების მოსაწოდებლად, მათ შორის, თქვენი ანგარიშის შესაქმნელად, სხვა მომხმარებლებთან დასაკავშირებლად და ვიდეოზარების გასამართად.</li>
+                <li>ჩვენი წესების აღსასრულებლად და უსაფრთხო გარემოს უზრუნველსაყოფად, რისთვისაც ვიყენებთ თქვენს დაბლოკილების სიას არასასურველი კავშირების თავიდან ასაცილებლად.</li>
+                <li>თქვენი ანგარიშის სამართავად, მათ შორის, წაშლის მოთხოვნების დასამუშავებლად.</li>
             </ul>
 
             <h2>3. ინფორმაციის გაზიარება</h2>
-            <p>ჩვენ არ ვყიდით და არ ვუზიარებთ თქვენს პირად ინფორმაციას მესამე მხარეებს, გარდა შემდეგი შემთხვევებისა:</p>
+            <p>ჩვენ არ ვყიდით თქვენს პირად ინფორმაციას. მისი გაზიარება შეიძლება მოხდეს მხოლოდ შემდეგ შემთხვევებში:</p>
             <ul>
-                <li><strong>სხვა მომხმარებლებთან:</strong> თქვენი მომხმარებლის სახელი და ვიდეო/აუდიო/ტექსტური კონტენტი უზიარდება იმ მომხმარებელს, ვისთანაც საუბრობთ.</li>
-                <li><strong>კანონის მოთხოვნით:</strong> თუ ამას მოითხოვს კანონი ან სასამართლო გადაწყვეტილება.</li>
+                <li><strong>სხვა მომხმარებლებთან:</strong> თქვენი სახელი და ვიდეო/აუდიო/ტექსტური კონტენტი რეალურ დროში უზიარდება იმ მომხმარებელს, ვისაც უკავშირდებით.</li>
+                <li><strong>სერვისის პროვაიდერებთან:</strong> ჩვენ ვიყენებთ მესამე მხარის სერვისებს, როგორიცაა Google Firebase (ავტორიზაცია, ბაზა) და Agora.io (ვიდეო სტრიმინგი). ამ სერვისებს აქვთ საკუთარი კონფიდენციალურობის პოლიტიკა.</li>
+                <li><strong>სამართლებრივი მიზეზებით:</strong> თუ ამას მოითხოვს კანონი, ან ჩვენი მომხმარებლებისა და საზოგადოების უფლებებისა და უსაფრთხოების დასაცავად.</li>
             </ul>
+            
+            <h2>4. თქვენი უფლებები და არჩევანი</h2>
 
-            <h2>4. მონაცემთა უსაფრთხოება</h2>
-            <p>ჩვენ ვიღებთ გონივრულ ზომებს თქვენი ინფორმაციის დასაცავად, თუმცა ინტერნეტით გადაცემის არცერთი მეთოდი არ არის 100%-ით უსაფრთხო. ჩვენ ვერ მოგცემთ აბსოლუტური უსაფრთხოების გარანტიას.</p>
+            <h3>ა) დაბლოკილების სიის მართვა:</h3>
+            <p>თქვენ შეგიძლიათ ნახოთ და მართოთ თქვენი დაბლოკილი მომხმარებლების სია აპლიკაციიდან, "დაბლოკილები" განყოფილებიდან, რომელიც ხელმისაწვდომია ფილტრების მთავარ გვერდზე.</p>
+            
+            <h3>ბ) ანგარიშის წაშლა:</h3>
+            <p>თქვენ გაქვთ უფლება, ნებისმიერ დროს სამუდამოდ წაშალოთ თქვენი ანგარიში. ეს მოქმედება შეუქცევადია და წაშლის თქვენს ყველა დაკავშირებულ მონაცემს ჩვენი სისტემებიდან.</p>
 
-            <h2>5. თქვენი უფლებები</h2>
-            <p>თქვენ გაქვთ უფლება, მოითხოვოთ თქვენი ანგარიშის და მასთან დაკავშირებული მონაცემების წაშლა. ამისთვის შეგიძლიათ დაგვიკავშირდეთ ქვემოთ მითითებულ ელ. ფოსტაზე.</p>
+            <h2>5. მონაცემების წაშლის ინსტრუქცია</h2>
+            <p class="note">ეს სექცია შეიცავს მონაცემთა წაშლის ინსტრუქციას Facebook-ის პლატფორმის მოთხოვნების შესაბამისად.</p>
+            <p>თქვენი ანგარიშისა და ყველა დაკავშირებული მონაცემის (პროფილის, დაბლოკილების სიის ჩათვლით) სამუდამოდ წასაშლელად, გთხოვთ, მიჰყვეთ ამ ნაბიჯებს:</p>
+            <ol>
+                <li>შედით აპლიკაციაში.</li>
+                <li>გადადით ფილტრების მთავარ ეკრანზე (გვერდი, სადაც არის "ძებნის დაწყება" და "გასვლა" ღილაკები).</li>
+                <li>დააჭირეთ ღილაკს "ანგარიშის წაშლა".</li>
+                <li>გამოსულ ფანჯარაში დააჭირეთ "წაშლას" დასადასტურებლად.</li>
+            </ol>
+            <p>დადასტურების შემდეგ, თქვენი ანგარიში წაიშლება Firebase Authentication-იდან და თქვენი ყველა მონაცემი სამუდამოდ წაიშლება ჩვენი Realtime Database-იდან.</p>
 
-            <h2>6. ცვლილებები პოლიტიკაში</h2>
-            <p>ჩვენ შეიძლება დროდადრო განვაახლოთ ეს პოლიტიკა. ნებისმიერი ცვლილების შესახებ შეგატყობინებთ აპლიკაციის საშუალებით ან პოლიტიკის ახალი ვერსიის გამოქვეყნებით.</p>
+            <h2>6. ბავშვების კონფიდენციალურობა</h2>
+            <p>ჩვენი სერვისი განკუთვნილია მხოლოდ 18 წელს გადაცილებული მომხმარებლებისთვის. ჩვენ შეგნებულად არ ვაგროვებთ პირად ინფორმაციას 18 წლამდე ასაკის პირებისგან.</p>
 
             <h2>7. საკონტაქტო ინფორმაცია</h2>
             <p>თუ გაქვთ შეკითხვები ამ კონფიდენციალურობის პოლიტიკასთან დაკავშირებით, გთხოვთ, დაგვიკავშირდეთ:<br>
